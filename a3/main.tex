@@ -127,7 +127,6 @@ Using properties of AP,
 \end{align}
 Hence proved that $a$, $b$, $c$ are in AP. \\
 
-%now that we know a, b, c are in AP, substituting those values in the above three expression which are also in AP..
 %add table
 \begin{table}[!h]
 \input{./tables/table1.tex}
@@ -135,45 +134,16 @@ Hence proved that $a$, $b$, $c$ are in AP. \\
 \label{tab:11.9.5.16.tab1}
 \end{table}
 
-%%%%%%%%%%%%%all these things are included in table and calculations are hidden%%%%%%%%%%%%%
-%concentrate on y(n)
-%\begin{align}
-%y(0) &= a \\
-%y(1) &= b = y(0) + d \\
-%y(2) &= c = y(0) + 2d 
-%\end{align}
-%Substituting these values of $a, b, c$ in $1^\text{st}$ AP:
-%now using this in x(n)
-%\begin{align}
-%x(0) &= a\left(\frac{1}{b} + \frac{1}{c}\right) = \frac{2y(0)^2 + 3y(0)d_y}{y(0)^2 + 3y(0)d_y + 2d_y^2} \\
-%x(1) &= b\left(\frac{1}{c} + \frac{1}{a}\right) = \frac{2y(0)^2 + 4y(0)d_y + 2d_y^2}{y(0)^2+2y(0)d_y} \\
-%x(3) &= c\left(\frac{1}{a} + \frac{1}{b}\right) = \frac{2y(0)^2 + 2y(0)d_y +d_y^2}{y(0)^2 + y(0)d_y}
-%\end{align}
-%General term of $1^\text{st}$ AP:
-%\begin{align}
-%x(n) &= x(0) + nd_x
-%\end{align}
-%where
-%\begin{align}
-%x(0) &= \frac{2y(0)^2 + 3y(0)d_y}{y(0)^2 + 3y(0)d_y + 2d_y^2} \nonumber \\
-%d_x &= \frac{y(0)^2d_y + y(0)d_y^2 + 2y(0)d_y + d_y^2}{y(0)(y(0) + d_y)(y(0) + 2d_y)} \nonumber
-%\end{align}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 From table \ref{tab:11.9.5.16.tab1}
 \begin{align}
-X(z) &= x(0)\frac{1}{1- z^{-1}} + d_x\frac{z^{-1}}{(1-z^{-1})^2} \quad \abs{z} > 1
+X(z) &= x(0)\frac{1}{1- z^{-1}} + d\frac{z^{-1}}{(1-z^{-1})^2} \quad \abs{z} > 1
 \end{align}
 
 \begin{figure}[h]
     \centering
     \includegraphics[width=\columnwidth]{./figs/fig1.png}
-    \caption{graph with value of $y(0) = 5, d_y = 10$ }
+    \caption{graph with value of $a = 3, b = 5, c = 7$ }
 \end{figure}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\columnwidth]{./figs/fig2.png}
-\end{figure}
 
 \end{document}
