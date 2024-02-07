@@ -11,9 +11,8 @@ x_values = data[:, 1]
 # Create a stem plot
 plt.stem(n_values, x_values, linefmt='|', markerfmt='o', basefmt='b', label='Stem Plot')
 
-plt.xlabel('n_values')
-plt.ylabel('x_values')
-plt.title('Stem Plot of n_values vs x_values')
+plt.xlabel('n')
+plt.ylabel('x(n)')
 plt.grid(True)
 plt.legend()
 plt.savefig('../figs/fig1.png')
