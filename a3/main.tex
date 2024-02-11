@@ -120,11 +120,9 @@ Q: If $a\left(\frac{1}{b} + \frac{1}{c}\right)$, $b\left(\frac{1}{c} + \frac{1}{
 \solution
 Common difference can be written as: 
 \begin{align}
-b\left(\frac{1}{c} + \frac{1}{a}\right) - a\left(\frac{1}{b} + \frac{1}{c}\right) &= c\left(\frac{1}{a} + \frac{1}{b}\right) - b\left(\frac{1}{c} + \frac{1}{a}\right) \nonumber \\
-(b\left(\frac{1}{c} + \frac{1}{a}\right)+1) - (a\left(\frac{1}{b} + \frac{1}{c}\right)+1) &= (c\left(\frac{1}{a} + \frac{1}{b}\right)+1) - (b\left(\frac{1}{c} + \frac{1}{a}\right)+1) \nonumber \\ \implies
-(b\left(\frac{1}{c} + \frac{1}{a}\right) + \frac{b}{b}) - (a\left(\frac{1}{b} + \frac{1}{c}\right) + \frac{a}{a}) &= (c\left(\frac{1}{a} + \frac{1}{b}\right) + \frac{c}{c}) - (b\left(\frac{1}{c} + \frac{1}{a}\right) + \frac{b}{b}) \nonumber \\ \implies
-(b\left(\frac{1}{a} + \frac{1}{b} + \frac{1}{c}\right)) - (a\left(\frac{1}{a} + \frac{1}{b} + \frac{1}{c}\right)) &= (c\left(\frac{1}{a} + \frac{1}{b} + \frac{1}{c}\right)) - (b\left(\frac{1}{a} + \frac{1}{b} + \frac{1}{c}\right)) \nonumber \\ \implies
-b - a &= c - b \nonumber 
+b\left(\frac{1}{c} + \frac{1}{a}\right) - a\left(\frac{1}{b} + \frac{1}{c}\right) &= c\left(\frac{1}{a} + \frac{1}{b}\right) - b\left(\frac{1}{c} + \frac{1}{a}\right)  \\ \implies
+(b - a)\brak{\frac{1}{a} + \frac{1}{b} + \frac{1}{c}} &= (c - b)\brak{\frac{1}{a} + \frac{1}{b} + \frac{1}{c}} \\ \implies
+b - a &= c - b  
 \end{align}
 Hence proved that $a$, $b$, $c$ are in AP. \\
 
@@ -135,15 +133,10 @@ Hence proved that $a$, $b$, $c$ are in AP. \\
 \label{tab:11.9.5.16.tab1}
 \end{table}
 
-\begin{align}
-d &=  b\left(\frac{1}{c} + \frac{1}{a}\right) - a\left(\frac{1}{b} + \frac{1}{c}\right) \\
-&= (b - a)(\frac{1}{a} + \frac{1}{b} + \frac{1}{c})
-\end{align}
-
 From table \ref{tab:11.9.5.16.tab1}
 \begin{align}
-X(z) &= x(0)\frac{1}{1- z^{-1}} + d\frac{z^{-1}}{(1-z^{-1})^2} \\
-X(z) &= a\left(\frac{1}{b} + \frac{1}{c}\right)(\frac{1}{1- z^{-1}}) + (b - a)(\frac{1}{a} + \frac{1}{b} + \frac{1}{c})(\frac{z^{-1}}{(1-z^{-1})^2}) \quad \abs{z} > 1
+X(z) &= x(0)\brak{\frac{1}{1- z^{-1}}} + d\brak{\frac{z^{-1}}{(1-z^{-1})^2}} \\
+X(z) &= a\left(\frac{1}{b} + \frac{1}{c}\right)\brak{\frac{1}{1- z^{-1}}} + (b - a)\brak{\frac{1}{a} + \frac{1}{b} + \frac{1}{c}}\brak{\frac{z^{-1}}{(1-z^{-1})^2}} \quad \abs{z} > 1
 \end{align}
 
 \begin{figure}[h]
